@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.containar{
+  height: 200vh;
+  width: 100%;
+  padding: 10px;
+}
+.head{
+  height: 5%;
+  width: 100%;
+  background-color: rgb(221, 236, 249);
+  border-radius: 10px;
+}
+.navbar{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+align-items: center;
+border: 2px solid black;
+}
+.nav-child{
+  height: 50%;
+  width: 100%;
+  
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid rgb(214, 66, 66);
+}
+.h-nav{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+.sec-1{
+  margin-top: 20px;
+  height: 30%;
+  width: 100%;
+    border: 2px solid black;
+    background-image: url("/asset/welocm.webp");
+
+}
+
